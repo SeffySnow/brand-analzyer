@@ -62,7 +62,7 @@ pattern1 = r'\b' + re.escape(brand_name) + r'\b\[([^\]]+)\]'
 pattern2 = r'\[' + re.escape(brand_name) + r'\]\(([^)]+)\)'
 
 # Pattern 3: Brand variations with [url] (linked)
-# Handles spaces, underscores, hyphens: "Brand Name", "Brand_Name", "Brand-Name"
+# Handles spaces, underscores, hyphens: "BrandName", "BrandName's"
 
 # Pattern 4: Simple brand mentions (unlinked)
 patterns_unlinked = [
