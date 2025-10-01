@@ -1,0 +1,179 @@
+[
+  {
+    "human_response_markdown": "Tesla, an American automotive and energy company, is known for its cutting-edge innovations in electric vehicles and renewable energy solutions. As of 2021, some of Tesla's latest innovations include:\n\n1. **Semi Truck**: Tesla's electric semi-truck, unveiled in 2017, aims to revolutionize the commercial trucking industry. It features a long driving range, low noise levels, and advanced safety features such as autopilot capabilities. The Semi is still in development and production has not yet begun.\n\nSource: [Tesla Semi](https://www.tesla.com/semi)\n\n2. **FSD (Full Self-Driving) Capability**: Tesla's FSD (Full Self-Driving) system is an advanced driver-assistance feature designed to allow the vehicle to navigate through traffic with no human input. The system uses machine learning and computer vision to make driving safer and more convenient. It continues to receive updates and improvements.\n\nSource: [Tesla FSD](https://www.tesla.com/features/full-self-driving)\n\n3. **Solar Roof**: In 2019, Tesla launched its Solar Roof, a solar energy solution that integrates with homes. This solar product offers an attractive, energy-efficient roofing option that generates electricity for homeowners, potentially replacing the need for traditional electricity sources.\n\nSource: [Tesla Solar Roof](https://www.tesla.com/powerwall/solar-roof)\n\n4. **Megapack**: Tesla's Megapack is an energy storage product designed to help utilities and developers integrate renewable energy into the grid. It provides long-duration battery energy storage, which can help balance the power grid and support renewable energy integration.\n\nSource: [Tesla Megapack](https://www.tesla.com/megapack)\n\n5. **Cybertruck**: The Tesla Cybertruck was unveiled in 2019 and is a highly anticipated electric pickup truck. With an all-electric powertrain, the Cybertruck promises to offer impressive performance, towing capacity, and off-road capabilities. Production is set to begin in 2022.\n\nSource: [Tesla Cybertruck](https://www.tesla.com/cybertruck)\n\nThese innovations are just a few examples of how Tesla is pushing the boundaries of electric vehicles and renewable energy solutions. The company continues to develop and improve its products, aiming to create a sustainable and eco-friendly future for transportation and energy consumption.",
+    "citations": [
+      {
+        "text": "Tesla Semi",
+        "url": "https://www.tesla.com/semi",
+        "type": "markdown_link"
+      },
+      {
+        "text": "Tesla FSD",
+        "url": "https://www.tesla.com/features/full-self-driving",
+        "type": "markdown_link"
+      },
+      {
+        "text": "Tesla Solar Roof",
+        "url": "https://www.tesla.com/powerwall/solar-roof",
+        "type": "markdown_link"
+      },
+      {
+        "text": "Tesla Megapack",
+        "url": "https://www.tesla.com/megapack",
+        "type": "markdown_link"
+      },
+      {
+        "text": "Tesla Cybertruck",
+        "url": "https://www.tesla.com/cybertruck",
+        "type": "markdown_link"
+      }
+    ],
+    "mentions": [
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 0,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "Tesla, an American automotive and energy company, is kn"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 165,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "d renewable energy solutions. As of 2021, some of Tesla's latest innovations include:\n\n1. **Semi Truck**:"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 221,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "s latest innovations include:\n\n1. **Semi Truck**: Tesla's electric semi-truck, unveiled in 2017, aims to "
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 514,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "pment and production has not yet begun.\n\nSource: [Tesla Semi](https://www.tesla.com/semi)\n\n2. **FSD (Full"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 598,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "semi)\n\n2. **FSD (Full Self-Driving) Capability**: Tesla's FSD (Full Self-Driving) system is an advanced d"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 913,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "es to receive updates and improvements.\n\nSource: [Tesla FSD](https://www.tesla.com/features/full-self-dri"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1003,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "s/full-self-driving)\n\n3. **Solar Roof**: In 2019, Tesla launched its Solar Roof, a solar energy solution "
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1280,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "ed for traditional electricity sources.\n\nSource: [Tesla Solar Roof](https://www.tesla.com/powerwall/solar"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1360,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "tesla.com/powerwall/solar-roof)\n\n4. **Megapack**: Tesla's Megapack is an energy storage product designed "
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1630,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "d support renewable energy integration.\n\nSource: [Tesla Megapack](https://www.tesla.com/megapack)\n\n5. **C"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1702,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "//www.tesla.com/megapack)\n\n5. **Cybertruck**: The Tesla Cybertruck was unveiled in 2019 and is a highly a"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 1971,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "es. Production is set to begin in 2022.\n\nSource: [Tesla Cybertruck](https://www.tesla.com/cybertruck)\n\nTh"
+      },
+      {
+        "text": "Tesla",
+        "brand_name": "Tesla",
+        "position": 2073,
+        "type": "unlinked",
+        "pattern": "standalone",
+        "context": "\nThese innovations are just a few examples of how Tesla is pushing the boundaries of electric vehicles an"
+      }
+    ],
+    "owned_sources": [],
+    "sources": [
+      "https://www.tesla.com/semi",
+      "https://www.tesla.com/features/full-self-driving",
+      "https://www.tesla.com/powerwall/solar-roof",
+      "https://www.tesla.com/megapack",
+      "https://www.tesla.com/cybertruck"
+    ],
+    "metadata": {
+      "brand_name": "Tesla",
+      "website_url": "https://tesla.com",
+      "question": "What are Tesla's latest innovations?",
+      "search_budget": {
+        "max_searches": 5,
+        "max_sources": 10,
+        "searches_used": 2,
+        "sources_used": 5,
+        "unique_sources": 5,
+        "searches_remaining": 3,
+        "sources_remaining": 5,
+        "budget_respected": true,
+        "search_efficiency": 2.5,
+        "search_method": "pattern_estimation"
+      },
+      "token_counts": {
+        "input_tokens": 120,
+        "output_tokens": 477,
+        "total_tokens": 597
+      },
+      "totals": {
+        "citations": 5,
+        "mentions": {
+          "total": 13,
+          "linked": 0,
+          "unlinked": 13
+        },
+        "owned_sources": 0,
+        "external_sources": 5,
+        "total_sources": 5
+      }
+    }
+  }
+]

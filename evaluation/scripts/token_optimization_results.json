@@ -1,0 +1,461 @@
+[
+  {
+    "test_case": {
+      "brand": "Apple",
+      "url": "https://www.apple.com",
+      "question": "What is Apple's latest product?",
+      "max_searches": 5,
+      "max_sources": 4
+    },
+    "results": [
+      {
+        "variation": "Original Prompt",
+        "response_length": 452,
+        "input_tokens": 126,
+        "output_tokens": 94,
+        "total_tokens": 220,
+        "token_efficiency": 0.746031746031746,
+        "citations_count": 1,
+        "unique_sources": 1,
+        "searches_used": 1,
+        "owned_sources": 1,
+        "external_sources": 0,
+        "mentions_total": 5,
+        "mentions_linked": 0,
+        "mentions_unlinked": 5,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 1,
+          "sources_used": 1,
+          "unique_sources": 1,
+          "unique_domains": [
+            "apple.com"
+          ],
+          "searches_remaining": 4,
+          "sources_remaining": 3,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      },
+      {
+        "variation": "Optimized Prompt",
+        "response_length": 170,
+        "input_tokens": 88,
+        "output_tokens": 50,
+        "total_tokens": 138,
+        "token_efficiency": 0.5681818181818182,
+        "citations_count": 1,
+        "unique_sources": 1,
+        "searches_used": 1,
+        "owned_sources": 1,
+        "external_sources": 0,
+        "mentions_total": 3,
+        "mentions_linked": 0,
+        "mentions_unlinked": 3,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 1,
+          "sources_used": 1,
+          "unique_sources": 1,
+          "unique_domains": [
+            "apple.com"
+          ],
+          "searches_remaining": 4,
+          "sources_remaining": 3,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      },
+      {
+        "variation": "Compressed Prompt",
+        "response_length": 1031,
+        "input_tokens": 139,
+        "output_tokens": 230,
+        "total_tokens": 369,
+        "token_efficiency": 1.6546762589928057,
+        "citations_count": 3,
+        "unique_sources": 3,
+        "searches_used": 3,
+        "owned_sources": 1,
+        "external_sources": 2,
+        "mentions_total": 5,
+        "mentions_linked": 0,
+        "mentions_unlinked": 5,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 3,
+          "sources_used": 3,
+          "unique_sources": 3,
+          "unique_domains": [
+            "apple.com",
+            "forbes.com",
+            "techcrunch.com"
+          ],
+          "searches_remaining": 2,
+          "sources_remaining": 1,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      }
+    ]
+  },
+  {
+    "test_case": {
+      "brand": "Google",
+      "url": "https://www.google.com",
+      "question": "how muuch is the google stock?",
+      "max_searches": 5,
+      "max_sources": 4
+    },
+    "results": [
+      {
+        "variation": "Original Prompt",
+        "response_length": 1086,
+        "input_tokens": 127,
+        "output_tokens": 275,
+        "total_tokens": 402,
+        "token_efficiency": 2.1653543307086616,
+        "citations_count": 4,
+        "unique_sources": 4,
+        "searches_used": 4,
+        "owned_sources": 0,
+        "external_sources": 4,
+        "mentions_total": 5,
+        "mentions_linked": 0,
+        "mentions_unlinked": 5,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 4,
+          "sources_used": 4,
+          "unique_sources": 4,
+          "unique_domains": [
+            "abc.xyz",
+            "reuters.com",
+            "marketwatch.com",
+            "finance.yahoo.com"
+          ],
+          "searches_remaining": 1,
+          "sources_remaining": 0,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      },
+      {
+        "variation": "Optimized Prompt",
+        "response_length": 737,
+        "input_tokens": 89,
+        "output_tokens": 185,
+        "total_tokens": 274,
+        "token_efficiency": 2.0786516853932584,
+        "citations_count": 4,
+        "unique_sources": 4,
+        "searches_used": 4,
+        "owned_sources": 1,
+        "external_sources": 3,
+        "mentions_total": 7,
+        "mentions_linked": 1,
+        "mentions_unlinked": 6,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 4,
+          "sources_used": 4,
+          "unique_sources": 4,
+          "unique_domains": [
+            "benzinga.com",
+            "marketminder.com",
+            "zacks.com",
+            "google.com"
+          ],
+          "searches_remaining": 1,
+          "sources_remaining": 0,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      },
+      {
+        "variation": "Compressed Prompt",
+        "response_length": 1086,
+        "input_tokens": 135,
+        "output_tokens": 249,
+        "total_tokens": 384,
+        "token_efficiency": 1.8444444444444446,
+        "citations_count": 8,
+        "unique_sources": 8,
+        "searches_used": 4,
+        "owned_sources": 0,
+        "external_sources": 8,
+        "mentions_total": 2,
+        "mentions_linked": 0,
+        "mentions_unlinked": 2,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 4,
+          "sources_used": 8,
+          "unique_sources": 8,
+          "unique_domains": [
+            "cnbc.com",
+            "finance.yahoo.com",
+            "nasdaq.com",
+            "marketwatch.com"
+          ],
+          "searches_remaining": 1,
+          "sources_remaining": -4,
+          "budget_respected": false,
+          "search_efficiency": 2.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "short"
+      }
+    ]
+  },
+  {
+    "test_case": {
+      "brand": "Apple",
+      "url": "https://www.apple.com",
+      "question": "Considering Apple's history of innovation in consumer electronics, software ecosystems, and services like the App Store, iCloud, and Apple Pay, what strategies, opportunities, or entrepreneurial approaches could an individual realistically pursue to generate a million dollars in wealth or revenue by leveraging Apple's ecosystem\u2014whether through app development, hardware accessories, creative content, resale channels, or investments in Apple-related ventures?",
+      "max_searches": 5,
+      "max_sources": 4,
+      "type": "long"
+    },
+    "results": [
+      {
+        "variation": "Original Prompt",
+        "response_length": 2708,
+        "input_tokens": 194,
+        "output_tokens": 511,
+        "total_tokens": 705,
+        "token_efficiency": 2.634020618556701,
+        "citations_count": 3,
+        "unique_sources": 3,
+        "searches_used": 3,
+        "owned_sources": 1,
+        "external_sources": 2,
+        "mentions_total": 28,
+        "mentions_linked": 0,
+        "mentions_unlinked": 28,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 3,
+          "sources_used": 3,
+          "unique_sources": 3,
+          "unique_domains": [
+            "support.apple.com",
+            "cbinsights.com",
+            "statista.com"
+          ],
+          "searches_remaining": 2,
+          "sources_remaining": 1,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      },
+      {
+        "variation": "Optimized Prompt",
+        "response_length": 3418,
+        "input_tokens": 156,
+        "output_tokens": 700,
+        "total_tokens": 856,
+        "token_efficiency": 4.487179487179487,
+        "citations_count": 5,
+        "unique_sources": 5,
+        "searches_used": 5,
+        "owned_sources": 0,
+        "external_sources": 5,
+        "mentions_total": 28,
+        "mentions_linked": 0,
+        "mentions_unlinked": 28,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 5,
+          "sources_used": 5,
+          "unique_sources": 5,
+          "unique_domains": [
+            "theguardian.com",
+            "businessoffashion.com",
+            "macworld.com",
+            "forbes.com",
+            "techcrunch.com"
+          ],
+          "searches_remaining": 0,
+          "sources_remaining": -1,
+          "budget_respected": false,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      },
+      {
+        "variation": "Compressed Prompt",
+        "response_length": 2281,
+        "input_tokens": 137,
+        "output_tokens": 439,
+        "total_tokens": 576,
+        "token_efficiency": 3.204379562043796,
+        "citations_count": 5,
+        "unique_sources": 5,
+        "searches_used": 4,
+        "owned_sources": 3,
+        "external_sources": 2,
+        "mentions_total": 18,
+        "mentions_linked": 0,
+        "mentions_unlinked": 18,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 4,
+          "sources_used": 5,
+          "unique_sources": 5,
+          "unique_domains": [
+            "forbes.com",
+            "developer.apple.com",
+            "business2community.com",
+            "apple.com"
+          ],
+          "searches_remaining": 1,
+          "sources_remaining": -1,
+          "budget_respected": false,
+          "search_efficiency": 1.25,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      }
+    ]
+  },
+  {
+    "test_case": {
+      "brand": "Google",
+      "url": "https://www.google.com",
+      "question": "Given Google's dominant position in search, digital advertising, cloud computing, and artificial intelligence technologies, what are the most effective pathways for an individual or small business to create a million dollars in value\u2014whether by optimizing campaigns through Google Ads, building successful products on Google Cloud or Android, leveraging YouTube for scalable content monetization, or identifying new niches within Google's expansive platform ecosystem?",
+      "max_searches": 5,
+      "max_sources": 4,
+      "type": "long"
+    },
+    "results": [
+      {
+        "variation": "Original Prompt",
+        "response_length": 3872,
+        "input_tokens": 195,
+        "output_tokens": 735,
+        "total_tokens": 930,
+        "token_efficiency": 3.769230769230769,
+        "citations_count": 4,
+        "unique_sources": 4,
+        "searches_used": 3,
+        "owned_sources": 3,
+        "external_sources": 1,
+        "mentions_total": 29,
+        "mentions_linked": 0,
+        "mentions_unlinked": 29,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 3,
+          "sources_used": 4,
+          "unique_sources": 4,
+          "unique_domains": [
+            "investopedia.com",
+            "cloud.google.com",
+            "support.google.com"
+          ],
+          "searches_remaining": 2,
+          "sources_remaining": 0,
+          "budget_respected": true,
+          "search_efficiency": 1.3333333333333333,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      },
+      {
+        "variation": "Optimized Prompt",
+        "response_length": 2800,
+        "input_tokens": 157,
+        "output_tokens": 516,
+        "total_tokens": 673,
+        "token_efficiency": 3.286624203821656,
+        "citations_count": 4,
+        "unique_sources": 4,
+        "searches_used": 4,
+        "owned_sources": 2,
+        "external_sources": 2,
+        "mentions_total": 19,
+        "mentions_linked": 0,
+        "mentions_unlinked": 19,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 4,
+          "sources_used": 4,
+          "unique_sources": 4,
+          "unique_domains": [
+            "cloud.google.com",
+            "youtubecreator.com",
+            "blog.google",
+            "support.google.com"
+          ],
+          "searches_remaining": 1,
+          "sources_remaining": 0,
+          "budget_respected": true,
+          "search_efficiency": 1.0,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      },
+      {
+        "variation": "Compressed Prompt",
+        "response_length": 2745,
+        "input_tokens": 137,
+        "output_tokens": 545,
+        "total_tokens": 682,
+        "token_efficiency": 3.978102189781022,
+        "citations_count": 6,
+        "unique_sources": 6,
+        "searches_used": 5,
+        "owned_sources": 0,
+        "external_sources": 6,
+        "mentions_total": 3,
+        "mentions_linked": 0,
+        "mentions_unlinked": 3,
+        "search_budget": {
+          "max_searches": 5,
+          "max_sources": 4,
+          "searches_used": 5,
+          "sources_used": 6,
+          "unique_sources": 6,
+          "unique_domains": [
+            "financialmentor.com",
+            "entrepreneur.com",
+            "hbr.org",
+            "thebalance.com",
+            "investopedia.com"
+          ],
+          "searches_remaining": 0,
+          "sources_remaining": -2,
+          "budget_respected": false,
+          "search_efficiency": 1.2,
+          "search_method": "domain_based_counting"
+        },
+        "type": "long"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[{
+    "brand": "Apple",
+    "url": "https://www.apple.com",
+    "question": "What is Apple's latest product?",
+    "max_searches": 5,
+    "max_sources": 4
+    
+},
+{
+    "brand": "Google",
+    "url": "https://www.google.com",
+    "question": "how muuch is the google stock?",
+    "max_searches": 5,
+    "max_sources": 4
+},
+
+    {
+      "brand": "Apple",
+      "url": "https://www.apple.com",
+      "question": "Considering Apple's history of innovation in consumer electronics, software ecosystems, and services like the App Store, iCloud, and Apple Pay, what strategies, opportunities, or entrepreneurial approaches could an individual realistically pursue to generate a million dollars in wealth or revenue by leveraging Apple's ecosystem—whether through app development, hardware accessories, creative content, resale channels, or investments in Apple-related ventures?",
+      "max_searches": 5,
+      "max_sources": 4,
+      "type": "long"
+    },
+    {
+      "brand": "Google",
+      "url": "https://www.google.com",
+      "question": "Given Google's dominant position in search, digital advertising, cloud computing, and artificial intelligence technologies, what are the most effective pathways for an individual or small business to create a million dollars in value—whether by optimizing campaigns through Google Ads, building successful products on Google Cloud or Android, leveraging YouTube for scalable content monetization, or identifying new niches within Google's expansive platform ecosystem?",
+      "max_searches": 5,
+      "max_sources": 4,
+      "type": "long"
+    }
+  
+  
+
+]

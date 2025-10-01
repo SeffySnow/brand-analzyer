@@ -1,0 +1,13 @@
+technique,long,short,brand_name,input_tokens,output_tokens,budget_compliance,token_optimization_percentage
+Original Prompt,0,1,Apple,126,94,1,0.0
+Optimized Prompt,0,1,Apple,88,50,1,30.16
+Compressed Prompt,0,1,Apple,139,230,1,-10.32
+Original Prompt,0,1,Google,127,275,1,0.0
+Optimized Prompt,0,1,Google,89,185,1,29.92
+Compressed Prompt,0,1,Google,135,249,0,-6.3
+Original Prompt,1,0,Apple,194,511,1,0.0
+Optimized Prompt,1,0,Apple,156,700,0,19.59
+Compressed Prompt,1,0,Apple,137,439,0,29.38
+Original Prompt,1,0,Google,195,735,1,0.0
+Optimized Prompt,1,0,Google,157,516,1,19.49
+Compressed Prompt,1,0,Google,137,545,0,29.74
