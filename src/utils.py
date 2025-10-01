@@ -199,7 +199,7 @@ def create_prompt(
       - If no '?' is present and tokens exceed threshold, summarize the whole text.
     """
     q_tokens = count_tokens(question)
-    print("q_tokens:", q_tokens)
+    print("initial q_tokens:", q_tokens)
 
     head, tail = _preserve_tail_two_sentences(question)
     if tail:  # we found a question to preserve
@@ -229,7 +229,7 @@ def create_prompt(
                 final_question_text = question
         else:
             final_question_text = question
-    print("final_question_text: ", final_question_text)
+    print("final_question_tokens: ", count_tokens(final_question_text))
     prompt = f"""
 Give an accurate answer. Cite sources as [text](url). Do not exceed budgets.
 
